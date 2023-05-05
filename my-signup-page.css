@@ -22,7 +22,7 @@ body{
     background-color: white;
     border-radius: 1.25rem;
     padding:  1rem;
-    width: 40%;
+    width: 43%;
 }
 
 .topLeftDiv{
@@ -33,7 +33,7 @@ body{
 
 .topRight{
     font-size: 0.7rem;
-    color:  hsl(0, 0%, 40%);
+    color:  hsl(0, 2%, 48%);
 }
 
 
@@ -47,6 +47,7 @@ body{
 .notification{
     border-radius: .625rem;
     margin-top: .375rem;
+    color:  hsl(219, 14%, 63%);
 }
 
 h1{
@@ -68,11 +69,10 @@ h1{
 
 .notificationText{
     display: flex;
+    font-size: 0.7rem;
+    align-items: center;
 }
 
-.notificationText{
-    font-size: 0.7rem;
-}
 
 .message{
     font-size: 0.7rem;
@@ -80,8 +80,38 @@ h1{
     border: .0063rem solid hsl(220, 4%, 85%);
     width: 20rem;
     height: 4rem;
+    margin-left: 2rem;
 }
 
  
  .spanNot{
-    font-size: 0.6r
+    font-size: 0.6rem;
+ }
+
+ .nameSpan{
+    font-weight: 800;
+    color: black;
+    margin-right: .1875rem;
+ }
+
+ .pSpan3, .pSpan7{
+color: hsl(219, 85%, 26%);
+font-weight: 800;
+margin-left: .1875rem;
+ }
+
+ .pSpan6, .pSpan1{
+    font-weight: 800;
+margin-left: .1875rem;
+color:  hsl(219, 14%, 63%);
+ }
+
+ .notificationText{
+    width:auto;
+ }
+
+ .img{
+    height: 2rem;
+    width: 2rem;
+    margin-right: .7rem;
+ }
