@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Notifications page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -19,10 +21,11 @@
 
   <div class="mainWhiteDiv">
 
-<div class="topiv">
+<div class="topDiv">
     <div class="topLeftDiv">
-       <h1 class="h1">Notifications</h1> 
-       <span class="spanNo">3</span>
+       <h1 class="h1">Notifications</h1>
+       <div class="topSpanDiv"><span class="spanNo">3</span></div> 
+       
   
   </div>
  
@@ -32,43 +35,51 @@
 
   <div class="notificationDiv">
 
-    <div class="notDiv1">
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+    <div class="notDiv1 notification">
+      <p class="notTexts1"> Mark Webber reacted to your recent post My first tournament today!</p>
+ 
+   <span class="notSpan1">1m ago</span>
 </div>
 
-<div class="notDiv2">
-  Angela Gray followed you
-  5m ago
+<div class="notDiv2 notification">
+  <p class="notTexts2"> Angela Gray followed you</p>
+ 
+   <span class="notSpan2">5m ago</span>
 </div>
 
-<div class="notDiv3">
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
+<div class="notDiv3 notification">
+  <p class="notTexts3"> Jacob Thompson has joined your group Chess Club</p>
+ 
+   <span class="notSpan">1 day ago</span>
 </div>
 
-<div class="notDiv4">
-  Rizky Hasanuddin sent you a private message
-  5 days ago
+<div class="notDiv4 notification">
+  <p class="notTexts4"> Rizky Hasanuddin sent you a private message</p>
+ 
+   <span class="notSpan4">5 days ago</span>
   <div class="div4Child">
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
+    <p class="message"> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+      I'm already having lots of fun and improving my game.</p>
+ 
 </div>
 </div>
 
-<div class="notDiv5">
-  Kimberly Smith commented on your picture
-  1 week ago
+<div class="notDiv5 notification">
+  <p class="notTexts5"> Kimberly Smith commented on your picture</p>
+ 
+  <span class="notSpan5"> 1 week ago</span>
 </div>
 
-<div class="notDiv6">
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
+<div class="notDiv6 notification">
+  <p class="notTexts6">  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate</p>
+
+   <span class="notSpan6">2 weeks ago</span>
 </div>
 
-<div class="notDiv7">
-  Anna Kim left the group Chess Club
-  2 weeks ago
+<div class="notDiv7 notification">
+  <p class="notTexts7">  Anna Kim left the group Chess Club</p>
+ <span class="notSpan7"> 2 weeks ago</span>
+ 
 </div>
 
 </div>

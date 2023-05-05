@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 24%, 91%);
+}
+
+.mainWhiteDiv{
+    width: 70%;
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: 0 1rem;
+}
+
+.topLeftDiv{
+    display: flex;
+    align-items: center;
+    
+}
+
+.topDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.notification{
+    background-color: aqua;
+    border-radius: .625rem;
+    margin-top: .375rem;
+}
+
+h1{
+    margin-right: 1rem;
+}
+
+.topSpanDiv{
+    background-color: hsl(224, 21%, 14%);
+    color: white;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
