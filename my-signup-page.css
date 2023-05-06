@@ -34,7 +34,7 @@ body{
 .topRight{
     font-size: 0.7rem;
     color:  hsl(0, 2%, 48%);
-
+    
 }
 
 
@@ -50,7 +50,7 @@ margin-bottom: 1.5rem;
     margin-top: .375rem;
     color:  hsl(219, 14%, 63%);
     margin-bottom: 0.8rem;
-    background-color: hsl(218, 31%, 78%);
+    background-color: hsl(217, 50%, 91%);
     padding: .389rem;
     cursor: pointer;
 }
@@ -60,7 +60,8 @@ h1{
   font-size: 1rem; 
 }
 
-.topSpanDiv{
+
+.spanNo{
     background-color: hsl(219, 85%, 26%);
     color: white;
     height: 1rem;
@@ -86,9 +87,9 @@ h1{
     width: 23rem;
     height: 4rem;
     margin-left: 2rem;
-    display: flex;
     align-items: center;
     padding: 0.5rem;
+    display: none;
 }
 
  
@@ -128,7 +129,14 @@ color:  hsl(219, 14%, 63%);
     align-items: center;
  }
 
+ .myImg{
+    margin-left: 6rem;
+    position: relative;
+ }
+
  .icon{
 height: 8px;
 width: 8px;
  }
+
+ 
