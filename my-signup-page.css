@@ -22,7 +22,7 @@ body{
     background-color: white;
     border-radius: 1.25rem;
     padding:  1rem;
-    width: 43%;
+    width: 45%;
 }
 
 .topLeftDiv{
@@ -34,6 +34,7 @@ body{
 .topRight{
     font-size: 0.7rem;
     color:  hsl(0, 2%, 48%);
+
 }
 
 
@@ -41,13 +42,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+margin-bottom: 1.5rem;
 }
 
 .notification{
     border-radius: .625rem;
     margin-top: .375rem;
     color:  hsl(219, 14%, 63%);
+    margin-bottom: 0.8rem;
+    background-color: hsl(218, 31%, 78%);
+    padding: .389rem;
+    cursor: pointer;
 }
 
 h1{
@@ -75,12 +80,15 @@ h1{
 
 
 .message{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-top: 0.3rem;
     border: .0063rem solid hsl(220, 4%, 85%);
-    width: 20rem;
+    width: 23rem;
     height: 4rem;
     margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
 }
 
  
@@ -106,12 +114,21 @@ margin-left: .1875rem;
 color:  hsl(219, 14%, 63%);
  }
 
- .notificationText{
-    width:auto;
- }
+
 
  .img{
     height: 2rem;
     width: 2rem;
     margin-right: .7rem;
+ }
+
+ .innerNotDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .icon{
+height: 8px;
+width: 8px;
  }
