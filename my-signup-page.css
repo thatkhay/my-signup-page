@@ -34,6 +34,7 @@ body{
 .topRight{
     font-size: 0.7rem;
     color:  hsl(0, 2%, 48%);
+    cursor: pointer;
     
 }
 
@@ -54,6 +55,12 @@ margin-bottom: 1.5rem;
     padding: .389rem;
     cursor: pointer;
 }
+
+.notificationOnMarkAll{
+    background-color: hsl(217, 50%, 91%);
+
+}
+
 
 h1{
     margin-right: 0.6rem;
