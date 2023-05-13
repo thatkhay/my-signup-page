@@ -26,7 +26,7 @@ notifications.forEach(notification => {
   });
 
 
-  markAllAsRead.addEventListener('click', markAll)
+  markAllAsRead.addEventListener('click', markAll);
 
   function markAll() {
     for (let i = 0; i < notifications.length; i++) {
